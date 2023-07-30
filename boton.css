@@ -1,0 +1,22 @@
+.boton-container {
+
+    margin: 20px auto;
+    text-align: center;
+}
+
+#boton-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c00063;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#boton-enlace:hover {
+    background-color: #9f0153;
+}
+
+
+
+
