@@ -55,7 +55,7 @@ li a.active, li a:hover{
     display: none;
 }
 section{
-    background: url(/images/fondo.jpeg) no-repeat;
+    background: url(fondo.jpeg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: auto;
@@ -107,7 +107,7 @@ section{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)), 
-    url(../IMAGES/enoturismo.jpeg);
+    url(enoturismo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -269,7 +269,7 @@ section{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)), 
-    url(../IMAGES/enoturismo.jpeg);
+    url(enoturismo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
