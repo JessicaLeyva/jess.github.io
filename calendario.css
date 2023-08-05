@@ -53,3 +53,23 @@ body {
     padding: 2px 5px;
     border-radius: 3px;
 }
+
+@media (max-width: 1100px) {
+    .calendario {
+        max-width: 90%; /* Reducir el ancho máximo para pantallas pequeñas */
+    }
+
+    .calendario-dias,
+    .calendario-celdas {
+        grid-template-columns: repeat(7, minmax(20px, 1fr)); /* Ajustar el tamaño de las columnas para pantallas pequeñas */
+        gap: 3px;
+    }
+
+    .calendario-header {
+        font-size: 20px; /* Reducir el tamaño de fuente para pantallas pequeñas */
+    }
+
+    .evento {
+        font-size: 12px; /* Reducir el tamaño de fuente de los eventos para pantallas pequeñas */
+    }
+}
